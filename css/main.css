@@ -22,14 +22,25 @@ img {
 }
 
 .wrapper {
-  overflow-x: hidden;
-  width: 1440px;
+  border-bottom: 1px solid silver;
   margin: 0 auto;
-  z-index: 1;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  background-color: #fff;
+  z-index: 1000;
+}
+
+header {
+  width: 1440px;
+  max-width: 1440px;
+  margin: 0 auto;
 }
 
 .wrapper header {
-  padding: 35px 20px;
+  padding: 30px 20px;
 }
 
 .wrapper  .header span {
