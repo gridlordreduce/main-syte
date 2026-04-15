@@ -194,15 +194,3 @@ span {
   right: 0;
   z-index: 1;
 }
-
-#main {
-  position: absolute;
-  right: -100px;
-  top: 180px;
-}
-
-#main2 {
-  position: absolute;
-  left: -100px;
-  top: 350px;
-}
