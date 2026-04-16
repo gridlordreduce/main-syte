@@ -43,7 +43,7 @@ header {
   padding: 30px 20px;
 }
 
-.wrapper  .header span {
+.wrapper .header span {
   font-size: 29px;
   font-weight: 700;
   color: #1090CB;
@@ -91,7 +91,7 @@ header {
 
 .wrapper .header li:not(.active):not(.btn) a:hover {
   display: block;
-  border-bottom: 5px solid #08D3BB;
+  color: #1090CB;
 }
 
 .wrapper .header .btn a {
@@ -204,4 +204,63 @@ span {
   position: absolute;
   right: 0;
   z-index: 1;
+}
+
+.body {
+  border-bottom: 1px solid silver;
+  width: 100%;
+}
+
+.body .flex {
+  display: flex;
+  color: #000;
+  padding: 43px 0;
+}
+
+.flex .block {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+}
+
+.flex img {
+  padding: 23px 23px;
+  border-radius: 25px;
+}
+
+.flex h1 {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.flex p {
+  font-size: 15px;
+  font-weight: 200;
+  opacity: 0.6;
+}
+
+.flex .weeb {
+  padding: 15px 0;
+  padding-left: 45px;
+  width: 100%;
+}
+
+.flex .block .weeb h1 {
+  display: block;
+}
+
+.flex .web img {
+  background: #EFEAFF;
+}
+
+.flex .seo img {
+  background: #ECFFDA;
+}
+
+.flex .arvr img {
+  background: #DAE6FF;
+}
+
+.flex .mobile img {
+  background: #FFE5DA;
 }
