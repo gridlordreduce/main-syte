@@ -266,7 +266,15 @@ span {
 }
 
 .arms {
-  padding-bottom: 1000px;
+  padding-bottom: 10px;
+  position: relative;
+}
+
+.arms .vector {
+  position: absolute;
+  z-index: 8;
+  top: 400px;
+  left: -70px;
 }
 
 .arms .baset {
@@ -307,6 +315,7 @@ span {
   padding: 11px 14px;
   border-radius: 50px;
   margin-right: 20px;
+  z-index: 11;
 }
 
 .phone .luric {
@@ -356,5 +365,152 @@ span {
 
 .phone .mobile img {
   position: absolute;
+  z-index: 2;
+}
+
+.phone1 {
+  color: #000;
+  display: flex;
+  position: relative;
+  padding-top: 200px;
+  padding-left: 110px;
+
+}
+
+.phone1 .lurics {
+  display: flex;
+  margin: 0 auto;
+}
+
+.phone1 .img1 {
+  display: block;
+  background: #1090CB;
+  padding: 11px 14px;
+  border-radius: 50px;
+  margin-right: 20px;
+  z-index: 11;
+}
+
+.phone1 .luric {
+  justify-content: center;
+}
+
+.phone1 .luric h1 {
+  font-size: 17px;
+  font-weight: 500;
+}
+
+.phone1 .luric p {
+  font-size: 14px;
+  font-weight: 400;
+  opacity: 0.4;
+}
+
+.phone1 .text1 {
+  width: 550px;
+  padding: 70px 0;
+}
+
+.phone1 .text1 .text2 .h1 {
+  padding: 20px 1000px;
+}
+
+.phone1 .left {
+  width: 516px;
+}
+
+.phone1 .text2 h1 {
+  font-size: 30px;
+  font-weight: 600;
+  padding: 50px 0;
+}
+
+.phone1 .text2 span {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.phone1 p {
+  font-size: 18px;
+  font-weight: 400;
+  opacity: 0.6;
+}
+
+.phone1 .mobile img {
+  position: absolute;
+  top: 120px;
+  left: 0;
+  z-index: 2;
+}
+
+.phone2 {
+  color: #000;
+  display: flex;
+  position: relative;
+  padding: 200px 0;
+}
+
+.phone2 .lurics {
+  display: flex;
+  margin: 0 auto;
+}
+
+.phone2 .img1 {
+  display: block;
+  background: #9208D3;
+  padding: 11px 14px;
+  border-radius: 50px;
+  margin-right: 20px;
+  z-index: 11;
+}
+
+.phone2 .luric {
+  justify-content: center;
+}
+
+.phone2 .luric h1 {
+  font-size: 17px;
+  font-weight: 500;
+}
+
+.phone2 .luric p {
+  font-size: 14px;
+  font-weight: 400;
+  opacity: 0.4;
+}
+
+.phone2 .text1 {
+  width: 550px;
+  padding: 70px 0;
+}
+
+.phone2 .text1 .text2 .h1 {
+  padding: 20px 1000px;
+}
+
+.phone2 .left {
+  width: 516px;
+}
+
+.phone2 .text2 h1 {
+  font-size: 30px;
+  font-weight: 600;
+  padding: 50px 0;
+}
+
+.phone2 .text2 span {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.phone2 p {
+  font-size: 18px;
+  font-weight: 400;
+  opacity: 0.6;
+}
+
+.phone2 .mobile img {
+  position: absolute;
+  right: 50px;
   z-index: 2;
 }
