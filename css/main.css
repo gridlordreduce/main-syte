@@ -264,3 +264,97 @@ span {
 .flex .mobile img {
   background: #FFE5DA;
 }
+
+.arms {
+  padding-bottom: 1000px;
+}
+
+.arms .baset {
+  text-align: center;
+  color: #000;
+  padding-top: 115px;
+  padding-bottom: 55px;
+}
+
+.arms .baset h1 {
+  font-size: 33px;
+  font-weight: 600;
+  padding-bottom: 20px;
+}
+
+.arms .baset p {
+  font-size: 18px;
+  font-weight: 400;
+  opacity: 0.4;
+  width: 692px;
+  margin: 0 auto;
+}
+
+.phone {
+  color: #000;
+  display: flex;
+  position: relative;
+}
+
+.phone .lurics {
+  display: flex;
+  margin: 0 auto;
+}
+
+.phone .img1 {
+  display: block;
+  background: #08D3BB;
+  padding: 11px 14px;
+  border-radius: 50px;
+  margin-right: 20px;
+}
+
+.phone .luric {
+  justify-content: center;
+}
+
+.phone .luric h1 {
+  font-size: 17px;
+  font-weight: 500;
+}
+
+.phone .luric p {
+  font-size: 14px;
+  font-weight: 400;
+  opacity: 0.4;
+}
+
+.phone .text1 {
+  width: 550px;
+  padding: 70px 0;
+}
+
+.phone .text1 .text2 .h1 {
+  padding: 20px 1000px;
+}
+
+.phone .left {
+  width: 516px;
+}
+
+.phone .text2 h1 {
+  font-size: 30px;
+  font-weight: 600;
+  padding: 50px 0;
+}
+
+.phone .text2 span {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.phone p {
+  font-size: 18px;
+  font-weight: 400;
+  opacity: 0.6;
+}
+
+.phone .mobile img {
+  position: absolute;
+  z-index: 2;
+}
