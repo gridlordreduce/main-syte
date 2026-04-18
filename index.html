@@ -143,7 +143,7 @@
                     platforms, including Android & IOS. </p>
             </div>
         </div>
-         <div class="phone2">
+        <div class="phone2">
             <div class="text1">
                 <div class="lurics">
                     <div class="img1">
@@ -168,6 +168,78 @@
                 <img src="img/vrhuman.svg" alt="">
             </div>
         </div>
+        <div class="colocol">
+            <div class="content1">
+                <h1>Lorem Ipsum is simply dummy text.</h1>
+                <p>KODEX TECHNOLOGY (PVT) LTD is a team of experienced mobile and web applications and website builders
+                    measuring dozens of completed projects. We build and develop mobile applications for several top
+                    platforms, including Android & IOS. </p>
+                <button class="btn">View More</button>
+            </div>
+            <div class="content2">
+                <h1>Lorem Ipsum is simply dummy text.</h1>
+                <p>KODEX TECHNOLOGY (PVT) LTD is a team of experienced mobile and web applications and website builders
+                    measuring dozens of completed projects. We build and develop mobile applications for several top
+                    platforms, including Android & IOS. </p>
+                <button class="btn">View More</button>
+                <div class="colocolchik">
+                    <img src="img/BellAngle.svg" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="brend">
+            <h1>You will be in good Company</h1>
+            <img src="img/Frame.svg" alt="">
+        </div>
+    </div>
+    <div class="email">
+        <div class="emailon container">
+            <h1>Lorem Ipsum is simply dummy text of the printing. </h1>
+            <div class="input">
+                <input type="email" id="emailField" placeholder="Enter your email">
+                <!--input - поле, в которой можно писать, placeholder - текст в самом поле-->
+                <button onclick="checkEmail()">Subscribe</button>
+            </div>
+            <script>
+                function checkEmail() {
+                    let email = document.querySelector('#emailField').value; //querySelector - выбирает конкретный атрибут
+                    if (!email.includes('@')) alert('Нет символа @') //if проверка символов, если нету символа @, включается функция alert, которая в свою очередь выдает окно
+                    else if (!email.includes('.')) alert('Нет символа .')
+                    else alert('Все отлично!')
+                }
+            </script>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="footers container">
+            <div class="log">
+                <h3>LOGO</h3>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+                <h5>@Lorem</h5>
+            </div>
+            <div class="about">
+                <h3>About us</h3>
+                <nav>
+                    <ul>
+                        <li>Lorem</li>
+                        <li>Portfolio</li>
+                        <li>Careers</li>
+                        <li class="li">Contact us</li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="contact">
+                <h3>Contact us</h3>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                <h5>+908 89097 890</h5>
+            </div>
+            <div class="twitter">
+                <img src="img/twitter.svg" alt="">
+            </div>
+        </div>
+    </div>
+    <div class="final">
+        <h1>Copyright ® 2021 Lorem All rights Rcerved</h1>
     </div>
 </body>
 
