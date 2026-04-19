@@ -1,0 +1,336 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  color: #000;
+  font-size: 16px;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+.wrapper {
+  border-bottom: 1px solid silver;
+  margin: 0 auto;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  background-color: #ffffff;
+  z-index: 1000;
+}
+
+header {
+  width: 1440px;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.wrapper header {
+  padding: 30px 20px;
+}
+
+.wrapper .header span {
+  font-size: 29px;
+  font-weight: 700;
+  color: #1090CB;
+  text-transform: uppercase;
+}
+
+.wrapper .header nav {
+  float: right;
+  width: 47%;
+  margin-top: 7px;
+}
+
+.wrapper .header ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  z-index: 2;
+}
+
+.wrapper .header li {
+  display: inline-block;
+}
+
+.wrapper .header .active a {
+  color: #1090CB;
+}
+
+.wrapper .header .active ::after {
+  content: "";
+  display: block;
+  background: #08D3BB;
+  height: 8px;
+  width: 8px;
+  border-radius: 5px;
+  position: relative;
+  top: -28px;
+  left: -9px;
+}
+
+.wrapper .header a {
+  color: #000;
+  position: relative;
+}
+
+.wrapper .header li:not(.active):not(.btn) a:hover {
+  display: block;
+  color: #1090CB;
+}
+
+.wrapper .header .btn a {
+  color: #fff;
+  background: #1090CB;
+  padding: 13px 30px;
+  border-radius: 7px;
+  transition: all 200ms ease;
+}
+
+.wrapper .header .btn a:hover {
+  background-color: #0b72a1;
+}
+
+.wrapper hr {
+  opacity: 20%;
+  border: 0.01;
+}
+
+hr {
+  opacity: 0.2;
+  border: 0.1;
+}
+
+.container {
+  width: 1240px;
+  margin: 0 auto;
+}
+
+.hero {
+  padding-top: 270px;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.hero .img .img1 {
+  position: absolute;
+  bottom: -30px;
+  left: -30px;
+}
+
+.hero .img .img2 {
+  position: absolute;
+  bottom: -30px;
+  left: 270px;
+}
+
+.hero .text {
+  width: 620px;
+  left: 0;
+}
+
+.hero .text h3 {
+  color: #1090CB;
+  font-size: 25px;
+  font-weight: 400;
+  padding-bottom: 19px;
+}
+
+.hero .text h1 {
+  font-size: 40px;
+  font-weight: 530;
+  padding-bottom: 37px;
+  width: 565px;
+}
+
+.hero .text p {
+  font-size: 18;
+  font-weight: 400;
+  opacity: 0.5;
+  width: 400px;
+}
+
+.heroc {
+  padding-top: 75px;
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+}
+
+.heroc .dek {
+  z-index: 2;
+}
+
+.heroc .tochka {
+  position: absolute;
+  top: 207px;
+  right: -35px;
+  z-index: 1;
+}
+
+.lorem {
+  padding: 200px;
+}
+
+.lorem h1 {
+  color: #1090CB;
+  font-size: 45px;
+  font-weight: 550;
+  width: 850px;
+  padding-bottom: 48px;
+}
+
+.lorem p {
+  font-size: 20;
+  font-weight: 400;
+  width: 800px;
+  opacity: 0.7;
+}
+
+.but {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 1000px;
+  position: relative;
+}
+
+.but .ipsum {
+  width: 470px;
+}
+
+.but .ipsum h1 {
+  font-size: 30px;
+  font-weight: 550;
+  padding-bottom: 31px;
+}
+
+.but .ipsum h1::after {
+  content: "";
+  display: block;
+  background: #4628A4;
+  height: 5px;
+  width: 55px;
+  position: relative;
+  bottom: 120px;
+  left: 0;
+}
+
+.but .ipsum p {
+  font-size: 20px;
+  font-weight: 400;
+  opacity: 0.5;
+  line-height: 1.9;
+  padding-bottom: 20px;
+}
+
+.but .ipsum button {
+  font-size: 16px;
+  color: #1090CB;
+  background: #fff;
+  padding: 15px 60px;
+  border-radius: 12px;
+  transition: all 200ms ease;
+  border: 0.1px solid #108cc5;
+  justify-content: center;
+  cursor: pointer;
+  display: block;
+  margin: 30px auto;
+  float: left;
+}
+
+.but .ipsum button:hover {
+  background-color: #eaeaea;
+}
+
+.choise {
+  padding: 0 40px;
+  padding-right: 210px;
+  height: 350px;
+  box-shadow: 0 0 50px 5px rgba(0, 0, 0, 0.1); 
+  position: absolute;
+  right: -120px;
+}
+
+.choises,
+.choises1 {
+  display: flex;
+  padding-top: 45px;
+}
+
+.choise .first {
+  display: flex;
+  width: 390px;
+}
+
+.choise .first .web img {
+  padding: 20px 21px;
+  border-radius: 18px;
+  background: #FFF2F2;
+}
+
+.choise .first .web {
+  padding-right: 20px;
+}
+
+.choise .first .p {
+  display: flex;
+  height: 77px;
+  align-items: center;
+}
+
+.choise .first .p h1 {
+  font-size: 25px;
+  font-weight: 500;
+  color: #2E0D64;
+}
+
+.choise .twelve {
+  display: flex;
+}
+
+.choise .twelve .web img {
+  padding: 20px 21px;
+  border-radius: 18px;
+  background: #E2F3FF;
+}
+
+.choise .twelve .web {
+  padding-right: 20px;
+}
+
+.choise .twelve .p {
+  display: flex;
+  height: 77px;
+  align-items: center;
+}
+
+.choise .twelve .p h1 {
+  font-size: 25px;
+  font-weight: 500;
+  color: #2E0D64;
+}
+
+.choise .choises1 .first .web img {
+  background: #F1E8FF;
+}
+
+.choise .choises1 .twelve .web img {
+  background: #FFE7FB;
+}
